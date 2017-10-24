@@ -1,0 +1,238 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+	text-decoration: none;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.container header{
+	width: 100%;
+	height: 1.25rem;
+	background-color: darkorange;
+	font-size: .16rem;
+	color: white;
+	
+	
+}
+.container header .header-one{
+	/*border: 1px solid black;*/
+	margin-top: 0.18rem;
+}
+
+.container header  .header-one span:nth-child(1){
+	margin-left: 0.1rem;
+}
+.container header  .header-one span:nth-child(2){
+	margin-left: 2.3rem;
+	color:cornflowerblue;
+	font-size: .18rem;
+}
+.container header  .header-one span:nth-child(3){
+	margin-left: 0.3rem;
+	font-size: .18rem;
+}
+/*头部第二部分*/
+.container header .header-two{
+	/*border: 1px solid black;*/
+	margin-top: 0.1rem;
+	position: relative;
+}
+.container header .header-two span:nth-child(1){
+	margin-left: 0.3rem;
+	font-size: 0.5rem;
+}
+.container header .header-two span:nth-child(2){
+	margin-left: 0.1rem;
+	position: absolute;
+	top: 0.2rem;
+}
+.container header .header-two span:nth-child(3){
+	margin-left: 2.40rem;
+	border: 1px solid black;
+	display: block;
+	width: 1.3rem;
+	font-size: 0.14rem;
+	line-height:0.3rem;
+	margin-top: -0.4rem;
+	border: 3px solid orange;
+	border-top-left-radius: .3rem;
+	border-bottom-left-radius: .3rem;
+	padding-left: 0.1rem;
+	
+}
+
+
+.container section{
+	flex: 1;
+	background-color:lightgray;
+	
+}
+.container section .one{
+	width: 100%;
+	height: 0.6rem;
+	/*border: 1px solid black;*/
+	font-size: 0.15rem;
+	background-color: white;
+}
+.container section .one ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.container section .one ul li{
+	 text-align: center;
+	 line-height: 0.3rem;
+	 color: black;
+	 opacity: 0.8;
+}
+.container section .one ul li span{
+	 text-align: center;
+	 display: block;
+	 
+}
+.container section .one ul li:nth-child(1){
+	flex: 1;
+}
+.container section .one ul li:nth-child(2){
+	flex: 1;
+}
+.container section .one ul li:nth-child(3){
+	flex: 1;
+}
+
+.container section .two{
+	width: 100%;
+	height: 0.48rem;
+	font-size: 0.15rem;
+	border-bottom: 1px solid lightgray;
+	margin-top: 0.11rem;
+	line-height: 0.4rem;
+	background-color: white;
+	position: relative;
+}
+.container section .two span:nth-child(1){
+	 margin-left: 0.1rem;
+	 font-size: 0.18rem;
+	 font-weight:600;
+}
+.container section .two span:nth-child(2){
+	 margin-left: 1.6rem;
+	 color: gray;
+	
+	 
+}
+.container section .two span:nth-child(3){
+	 color: gray;
+	 /*border: 1px solid red;*/
+	 display: block;
+	 width: .2rem;
+	 position: absolute;
+	 right: 0.15rem;
+	 top: 0.03rem;
+}
+
+.container section .three{
+	width: 100%;
+	height: 0.8rem;
+	/*border: 1px solid yellow;*/
+	font-size: .15rem;
+	background-color: white;
+}
+.container section .three ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	text-align: center;
+}
+
+.container section .three ul li span{
+	/*border: 1px solid red;*/
+	display: block;
+	margin-top: 0.1rem;
+	line-height: 0.4rem;
+	font-size: 0.25rem;
+	color: darkorange;
+	font-weight: bold;
+}
+
+
+.container section .three ul li:nth-child(1){
+	flex: 1;
+}
+
+.container section .three ul li{
+	flex:1;
+}
+
+
+.container section .three-more ul li:nth-child(1) span{
+	color:lightseagreen;
+}
+.container section .three-more ul li:nth-child(2) span{
+	color:lightseagreen;
+}
+.container section .last ul li span{
+	color:green;
+}
+.container section .last ul li:nth-child(1) span{
+	color:green;
+}
+.container section .last ul li:nth-child(2) span{
+	color:green;
+}
+
+
+
+
+
+.container footer{
+	width: 100%;
+	height: .44rem;
+	background-color: lightblue;
+	font-size: .14rem;
+}
+
+
+.container footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.container footer ul a{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: blue;
+	
+}
+.container footer ul li{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	/*在弹性盒子让子元素水平居中*/
+	align-items: center;
+	justify-content: center;
+}
+.container footer li i{
+	font-style: normal;
+	
+}
+.container footer li span{
+	font-size: .22rem;
+	
+	
+}
+
+

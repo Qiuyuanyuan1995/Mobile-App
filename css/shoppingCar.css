@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+html{
+	font-size: 26.7vw;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+header{
+	width: 100%;
+	height: .44rem;
+	border: 1px solid firebrick;
+	background-color: orangered;
+}
+header ul{
+	width: 100%;
+    height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+header ul li{
+	font-size: 0.2rem;
+	color: white;
+	line-height: .44rem;
+}
+header ul li:nth-child(1){
+	flex: 1;
+	text-align: center;
+	border: 1px solid deeppink;
+}
+header ul li:nth-child(2){
+     margin-right: 0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+section{
+	flex: 1;
+	background:lightcyan;
+}
+section ul{
+	display: flex;
+	flex-direction: column;
+	font-size: .14rem;
+}
+section ul li{
+	height:2rem;
+	/*border: 1px solid black;*/
+	background-color: white;
+	margin-top: 0.1rem;
+	
+}
+section ul li .icecrem {
+	line-height: 0.4rem;
+	/*border-bottom: 1px solid gray;*/
+	position: relative;
+}
+section ul li .icecrem:after{
+	content: "";
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px solid #000;
+	transform: scaleY(.5);
+	position: absolute;
+	bottom:0;
+	left:0;
+	
+	
+}
+
+
+
+
+
+section ul li .icecrem span{
+	font-size: .2rem;
+}
+section ul li .icecrem span:nth-child(1){
+	margin-left: 0.1rem;
+}
+section ul li .icecrem span:nth-child(2){
+	margin-left: 0.1rem;
+}
+section ul li .icecrem span:nth-child(3){
+	margin-left: 0.7rem;
+	
+}
+section ul li .icecrem span:nth-child(4){
+	margin-left: 0.3rem;
+}
+
+
+section ul li .icecrem-detail{
+	line-height: 0.2rem;
+	position: relative;
+}
+section ul li .icecrem-detail span:nth-child(1){
+	margin-left: 0.1rem;
+	/*border: 1px solid red;*/
+	position: absolute;
+	top: 0.6rem;
+	
+}
+section ul li .icecrem-detail img{
+	width: 1.2rem;
+	height: 1.0rem;
+	margin-top: 0.3rem;
+	margin-left: 0.4rem;
+}
+section ul li .icecrem-detail span:nth-child(3){
+	margin-left: 0.1rem;
+	/*border: 1px solid red;*/
+	position: absolute;
+    left: 1.6rem;
+    top: 0.3rem;	
+	
+}
+section ul li .icecrem-detail span:last-child{
+	 margin-left: 0.3rem;
+}
+
+
+footer{
+	width: 100%;
+	height: .44rem;
+	background-color:red;
+	font-size: .14rem;
+}
+
+.container footer ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.container footer ul a{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+	
+}
+.container footer ul li{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	/*在弹性盒子让子元素水平居中*/
+	align-items: center;
+	justify-content: center;
+}
+.container footer li i{
+	font-style: normal;
+	
+}
+.container footer li span{
+	font-size: .22rem;
+	
+	
+}
+
+
+
+
+
+
+.counter {
+	height: .44rem;
+	line-height: 0.4rem;
+	border-bottom: 1px solid gray;
+	font-size: .22rem;
+	
+}
+.counter span{
+	font-size: .2rem;
+}
+.counter span:nth-child(1){
+	margin-left: 0.1rem;
+}
+.counter span:nth-child(2){
+	margin-left: 0.1rem;
+}
+.counter span:nth-child(3){
+	margin-left: 0.7rem;
+	font-size: .2rem;
+	
+}
+
+.counter button{
+	width: 0.7rem;
+	height: 0.3rem;
+	margin-left: 0.2rem;
+	line-height: .28rem;
+	border-radius: .15rem;
+}
+
